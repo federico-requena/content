@@ -32,7 +32,7 @@ function NavBar(props){
 
 ## Using a Component
 
-Once you have created your first a component, you can include it or use it inside the rest of your code by typing the function name like an HTML `<tag>`. For example, if you created a component using the function syntax called Home you can include it in your code using the `<Home>` tag like this:
+Once you have created your first component, you can include it or use it inside the rest of your code by typing the function name like an HTML `<tag>`. For example, if you created a component using the function syntax called Home, you can include it in your code using the `<Home>` tag like this:
 
 ```jsx
 import React from "react";
@@ -58,7 +58,7 @@ root.render(<Home />);
 
 ## The Component Props (properties)
 
-Sometimes a component needs dynamic information to display.  For example, we need our `<Navbar />` component to show the list of available links and the brand’s logo.  We can include that information within the call of the `<Navbar />` component just the same way as we do in HTML tags.
+Sometimes a component needs dynamic information to display.  For example, we need our `<Navbar />` component to show the list of available links and the brand’s logo.  We can include that information within the call of the `<Navbar />` component just as we do in HTML tags.
 
 ```jsx
 <Navbar foo="bar" foo2="bar2" />
